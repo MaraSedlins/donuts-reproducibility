@@ -6,7 +6,7 @@ download.file(url = "http://libguides.colostate.edu/ld.php?content_id=27156359",
 #Load the data from the file into an R variable
 height<-read.csv("ex1.csv", row.names="Country")
 
-#Demo changes for Git
+#Git this is changing 
 
 #Now let's plot the data:
 
