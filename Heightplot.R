@@ -8,6 +8,8 @@ height<-read.csv("ex1.csv", row.names="Country")
 
 # making changes to demo Git
 
+# one more change
+
 #Now let's plot the data:
 
 counts<-t(as.matrix(height)) #converts the variable height to a format that
