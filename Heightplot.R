@@ -3,6 +3,8 @@ download.file(url = "http://libguides.colostate.edu/ld.php?content_id=27156359",
               destfile = "ex1.csv", 
               method="libcurl")
 
+#adding a change to the script
+
 #Load the data from the file into an R variable
 height<-read.csv("ex1.csv", row.names="Country")
 
