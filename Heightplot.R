@@ -8,15 +8,13 @@ height<-read.csv("ex1.csv", row.names="Country")
 
 # making changes to demo Git
 
-# one more change
-
 #Now let's plot the data:
 
 counts<-t(as.matrix(height)) #converts the variable height to a format that
 #can be plotted
 counts<-counts-145            #transforms the data so it looks like the excel plot
 barplot(counts,               #the height of the bar
-        beside = TRUE,        #put cols next to eachother
+        beside = TRUE,        #put cols next to each other
         main="Height by country in males and females",  #plot title
         xlab="Country",         #X axis label
         ylab="Height (cm)",     #Y axis label
